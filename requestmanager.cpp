@@ -9,8 +9,7 @@ RequestManager::RequestManager(QObject* parent) : HttpRequestHandler(parent) {}
 void RequestManager::service(HttpRequest& request, HttpResponse& response)
 {
     QByteArray path = request.getPath();
-	std::clog << std::endl
-			  << ("RequestMapper: path=%s", path.data()) << std::endl;
+	qDebug()<< ("RequestMapper: path=%s", path.data());
     HttpSession session = sessionStore->getSession(request, response, false);
     QString username = session.get("username").toString();
     logger->set("currentUser", username);

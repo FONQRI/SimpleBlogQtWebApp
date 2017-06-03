@@ -1,0 +1,94 @@
+
+.loginMainForm {
+    background-color: #212121;
+    padding: 50px;
+    border-radius: 5px;
+    color: #F5F5F5;
+}
+
+@media screen and (min-width: 768px) {
+ 
+}
+
+@media screen and (min-width: 768px) {
+    .createMainRow {
+        margin-top: 100px;
+        ;
+    }
+}
+
+.loginImg {
+    margin-bottom: 10px;
+}
+
+.rightAlign {
+    text-align: right;
+}
+.centerAlign {
+    
+    text-align: center;
+}
+.sendPostBtn {
+    margin-top: 20px;
+}
+.active{
+    background-color: #F5F5F5;
+}
+.navbar-brand{
+    background-color: #1E88E5 !important;
+    color:#F5F5F5 !important;
+}
+.loginButtonOnOtherPages {
+    background-color: #4CAF50 !important;
+    color: #f5f5f5 !important;
+}
+
+.footerClass {
+    margin-top: 3vh;
+    background-color: #212121;
+    min-height: 30vh;
+}
+
+.bodyClass {
+    min-height: 100vh !important;
+}
+
+
+
+.mainContent {
+    padding-top: 10vh;
+    min-height: 70vh;
+}
+
+.error404 {
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10px;
+}
+
+.wrongLogin {
+    color:#651FFF;
+}
+
+.postTextClass {
+    word-wrap: break-word;
+    
+}
+.flatBorder{
+    background-color:  #E0E0E0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+

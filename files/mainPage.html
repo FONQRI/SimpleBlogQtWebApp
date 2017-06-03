@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="files/resources/css/bootstrap.css">
+    <link rel="stylesheet" href="files/resources/css/font-awesome.css">
+    <link rel="stylesheet" href="files/resources/css/style.css"> </head>
+
+<body class="bodyClass">
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid"> <a class="navbar-brand" href="#">FONQRI Blog</a>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav  nav-justified">
+                    <li class="active navOptions page-scroll scrollToTop"><a href="/"><span class="fa fa-home"></span>Home</a></li>
+                    <li class="navOptions page-scroll scrollToAbout"><a href="/aboutus">About us</a></li>
+                    <li class="navOptions page-scroll scrollToContact"><a href="/contactus">contact Us</a></li>
+                          <li><a href="/login"><span class="fa fa-sign-in"></span> Login</a></li>
+
+                </ul>
+               
+            </div>
+             .navbar-collapse 
+        </div>
+    </nav>
+    
+    <div class="mainContent">
+        <div class="container" style="margin-top = 200px;">
+            <div class="row"> {loop blogPost}
+                <div class="col-xs-12 card">
+                    <div class="col-xs-12 centerAlign">
+                        <h1>{blogPost.title}</h1> </div>
+                    <div class="col-xs-12 postTextClass"> {blogPost.contentPost} </div>
+                    <div class="col-sm-6 centerAlign flatBorder">{blogPost.author}</div>
+                    <div class="col-sm-6 centerAlign flatBorder">{blogPost.date}</div>
+                </div> {end blogPost} </div>
+        </div>
+    </div>
+    <footer class="footerClass"> </footer>
+    <script src="files/resources/js/jquery-3.1.1.min.js"></script>
+    <script src="files/resources/js/bootstrap.js"></script>
+</body>
+
+</html>

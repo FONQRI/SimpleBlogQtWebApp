@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="files/resources/css/bootstrap.css">
+    <link rel="stylesheet" href="files/resources/css/font-awesome.css">
+    <link rel="stylesheet" href="files/resources/css/style.css"> </head>
+
+<body class="bodyClass">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid"> <a class="navbar-brand" href="#">FONQRI Blog</a>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav  nav-justified">
+                    <li class="active navOptions page-scroll scrollToTop"><a href="/"><span class="fa fa-home"></span>Home</a></li>
+                    <li class="navOptions page-scroll scrollToAbout"><a href="/aboutus">About us</a></li>
+                    <li class="navOptions page-scroll scrollToContact"><a href="/contactus">contact Us</a></li>
+                </ul>
+            </div> .navbar-collapse </div>
+    </nav>
+    <div class="mainContent">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-md-4 "></div>
+                <div class="col-sm-6 col-md-4 col-xs-12 ">
+                    <div class="loginMainForm"> <img src="files/resources/img/fonqri.jpg" alt="fonqri" class="img-responsive img-circle loginImg">
+                        <form method="get">
+                            <label for="username">username :</label>
+                            <div class="form-group input-group"> <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                <input class="form-control" type="text" name='username' placeholder="username" /> </div>
+                            <label for="pwd">Password:</label>
+                            <div class="form-group input-group"> <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                <input type="password" class="form-control" name='password' id="pwd" placeholder="password"> </div>
+                            <button type="submit" class="btn btn-info btn-block">Login</button> {if false}
+                            <div class="col-xs-12">
+                                <p class="wrongLogin">username or password is wrong !</p>
+                            </div> {end false} </form>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-4 "></div>
+            </div>
+        </div>
+    </div>
+    <footer class="footerClass"> </footer>
+    <script src="files/resources/js/jquery-3.1.1.min.js"></script>
+    <script src="files/resources/js/bootstrap.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="files/resources/css/bootstrap.css">
+    <link rel="stylesheet" href="files/resources/css/font-awesome.css">
+    <link rel="stylesheet" href="files/resources/css/style.css"> </head>
+    <script src="files/resources/ckeditor/ckeditor.js"></script>
+
+<body class="bodyClass">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid"> <a class="navbar-brand" href="#">FONQRI Blog</a>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav  nav-justified">
+                    <li class="active navOptions page-scroll scrollToTop"><a href="/"><span class="fa fa-home"></span>Home</a></li>
+                    <li class="navOptions page-scroll scrollToProduct"><a href="/list">Post Lists</a></li>
+                    <li class="navOptions page-scroll scrollToAbout"><a href="/aboutus">About us</a></li>
+                    <li class="navOptions page-scroll scrollToContact"><a href="/contactus">contact Us</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+    
+    <div class="mainContent">
+        <div class="container">
+            <div class="row createMainRow">
+               <form action="/create" method="post">
+                <div class="col-xs-12">
+                    <div class="form-group input-group btn-block">
+                        <label for="title">Title :</label>
+                        <input class="form-control" type="text" name='title' placeholder="Title" /> </div>
+                </div>
+                
+                <div class="col-xs-12">
+                    <textarea name="editor1"></textarea>
+                </div>
+                <div class="col col-xs-2"></div>
+                <div class="col col-xs-8 sendPostBtn">
+                    <button type="submit" class="btn btn-info btn-block ">send</button>
+                </div>
+                <div class="col col-xs-2"></div>
+                </form>
+            </div>
+        </div>
+        
+           </div>
+    <footer class="footerClass">
+     
+ </footer>
+   
+   <script src="files/resources/js/jquery-3.1.1.min.js"></script>
+    <script src="files/resources/js/bootstrap.js"></script>
+    <script src="files/resources/js/script.js"></script>
+</body>
+</html>
+
+
